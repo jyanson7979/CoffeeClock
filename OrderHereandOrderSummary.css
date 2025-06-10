@@ -1,0 +1,190 @@
+
+
+body {
+  margin: 0;
+  font-family: 'League Spartan', sans-serif;
+  background-color: black;
+  color: #3e2c22; 
+}
+
+header {
+  background-color: black; 
+}
+
+.navbar .nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  gap: 30px;
+}
+
+.navbar .nav-links li a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+.navbar .nav-links li a:hover {
+  color: #d9b99b; 
+}
+
+.section-title {
+  text-align: center;
+  color: whitesmoke; 
+  font-weight: 700;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.menu-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 0 15px 40px;
+}
+
+.menu-item {
+  width: 200px;
+  background-color: whitesmoke;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(62, 44, 34, 0.15);
+  text-align: center;
+  padding: 15px 10px;
+  transition: transform 0.2s ease;
+}
+
+.menu-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(62, 44, 34, 0.25);
+}
+
+.menu-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.menu-item h4 {
+  margin: 8px 0 5px;
+  font-size: 1.1rem;
+  color: black;
+}
+
+.menu-item p {
+  margin: 0 0 10px;
+  font-weight: 600;
+  color: black;
+}
+
+.menu-item button {
+  background-color: black;
+  color: #f4f4f4;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.menu-item button:hover {
+  background-color: #5a4437;
+}
+
+#cart {
+  border-top: 3px solid black;
+  margin-top: 30px;
+  padding-top: 20px;
+  max-width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(62, 44, 34, 0.1);
+  padding: 20px 25px;
+}
+
+#cart h2 {
+  color: black;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+#receipt {
+  background-color: #f9f6f2; 
+  border: 1px solid #d9b99b;
+  border-radius: 6px;
+  padding: 15px;
+  font-size: 1rem;
+  color: black;
+  min-height: 80px;
+  margin-bottom: 15px;
+}
+
+#receipt ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0 0 10px 0;
+}
+
+#receipt li {
+  padding: 4px 0;
+  border-bottom: 1px solid #e0d6ca;
+}
+
+#receipt strong {
+  display: block;
+  margin-top: 10px;
+  font-size: 1.1rem;
+  color: black;
+}
+
+#orderForm button {
+  width: 100%;
+  background-color: black;
+  color: #f4f4f4;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#orderForm button:hover {
+  background-color: black;
+}
+
+.contact-section {
+  max-width: 600px;
+  margin: 40px auto 50px;
+  text-align: center;
+  color: whitesmoke;
+  font-size: 1rem;
+}
+
+.contact-section a {
+  color: whitesmoke;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.contact-section a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: black;
+  color: black;
+  font-weight: 500;
+  font-size: 1rem;
+}
